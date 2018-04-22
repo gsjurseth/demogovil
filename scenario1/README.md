@@ -7,11 +7,11 @@ Once again here is the system context
 ## Overview
 Examples of a request made to the payments service (each request will send back an XML that includes all the relevant records that meet the query criterion, in a uniform and complete structure – with all the fields appearing in the table):
 - Obtaining all the payments made by a civilian with a specific ID number
---- /payments/search?tz=123456789
+  /payments/search?tz=123456789
 - Obtaining all the payments made in 2016
---- /payments/search?p_date_start=01-01-2016&p_date-end=31-12-2016
+  /payments/search?p_date_start=01-01-2016&p_date-end=31-12-2016
 - Obtaining all the payments made in 2016 to Authority no. 2
---- /payments/search?p_date_start=01-01-2016&p_date-end=31-12-2016&authority=2
+  /payments/search?p_date_start=01-01-2016&p_date-end=31-12-2016&authority=2
 
 In this scenario identification is to be implemented with the SAML 2.0 protocol between Office B (the client) and Office A (the information provider). The communication protocol between the office making the request and the API GW component will be HTTPS and the identification method will be based on one of the two following options:
 Use of a smart card.
