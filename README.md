@@ -1,10 +1,10 @@
 # demogovil
 Here are the scenarios and their current status
 
-
 ## System Context
 ![alt text](resources/images/SystemContext.png "System Context")
 
+## Breakdown of the various scenarios
 - :heavy_check_mark: [scenario1](/scenario1)
 - :large_orange_diamond: [scenario2](/scenario2)
 - :large_orange_diamond: [scenario3](/scenario3)
