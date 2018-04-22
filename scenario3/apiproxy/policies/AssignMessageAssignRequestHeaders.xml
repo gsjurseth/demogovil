@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AssignMessageAssignRequestHeaders">
+    <DisplayName>AssignMessage.AssignRequestHeaders</DisplayName>
+    <Add>
+        <Headers>
+            <Header name="X-USER-ID">{apigee.client_id}</Header>
+        </Headers>
+    </Add>
+</AssignMessage>

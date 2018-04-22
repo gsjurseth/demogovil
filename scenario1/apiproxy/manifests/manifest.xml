@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessageAssignRequestHeaders" version="SHA-512:3c5be35de0ffbab6c06d24eab64e30cea546ceb93bfcadeea1d612bb88dadcc8a67bf92e0adb90d4f3be30ab0aad8f1869eb81bbb555baf3be7d8e3fcf949b2e"/>
+        <VersionInfo resourceName="FlowCalloutSAML" version="SHA-512:74756d8dd30b9df80d6966edb2e56e74d7c14f570622d1852ada9c2d2ff6e843c69c6f74350b8a39dea8ed5ad6d863abf8d922c54c105e35f1638be5d0ce5fd3"/>
+        <VersionInfo resourceName="MessageLoggingLoggly" version="SHA-512:864fd082819e13ab9c1a7832b5226859ce0bbcb1328090751b8b00dafc858b220a9afeef461ed8600478150f5e3b2d2779a9ee9465be11db7eb768081282b1d0"/>
+        <VersionInfo resourceName="XMLtoJSON" version="SHA-512:937f72f39d860fa1fa388b57b8417ca55484b9ba058d0ace0932064363c482b9864b4ef861eef230680078a34d60703e87c39e16171ad70203827bc753f63610"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:060e92a3b155e1d88c533e851035ed5675dfc4c7eb233a79fb0f6e010b9b369d364fabd607c4a62768a0e1de606728a304c8cf930f2376206367c76cb59f8ac8"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:0be21a8ba12a15c67663a4f7f1a064825a6bd57300031a5f54be918fbd09b9e0e2f2856d8161f920e06cea99b5ce1060ecf3bb9e7bde7c5556e837f8b2a97347"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:6ef37e16782d25868159a9a6742457c9923e44270bb66209bec6040f430dc844319e1c4de02d25172c43ecc6f0c88261016cfeb381adce00a1ace771c0a15664"/>
+    </TargetEndpoints>
+</Manifest>

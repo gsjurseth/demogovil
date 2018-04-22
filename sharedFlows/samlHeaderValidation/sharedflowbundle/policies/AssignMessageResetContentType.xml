@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AssignMessageResetContentType">
+    <DisplayName>AssignMessage.ResetContentType</DisplayName>
+    <Set>
+        <Headers>
+            <Header name="Content-Type">{oldContentType}</Header>
+        </Headers>
+        <Payload/>
+    </Set>
+</AssignMessage>

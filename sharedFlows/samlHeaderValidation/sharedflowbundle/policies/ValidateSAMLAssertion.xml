@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ValidateSAMLAssertion ignoreContentType="false" name="ValidateSAMLAssertion">
+    <DisplayName>ValidateSAMLAssertion</DisplayName>
+    <Source name="request">
+        <Namespaces>
+            <Namespace prefix="saml">urn:oasis:names:tc:SAML:2.0:assertion</Namespace>
+        </Namespaces>
+        <XPath>/saml:Assertion</XPath>
+    </Source>
+    <RemoveAssertion>false</RemoveAssertion>
+</ValidateSAMLAssertion>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessageResetContentType" version="SHA-512:62333980b69c4d2506626f0bfc8cb7841a691f0bd5365f013b58cc93f7c3105097fce478716d25ff27e15e54ac3c5d33b55607589f23f280619e0f929ae108a8"/>
+        <VersionInfo resourceName="AssignMessageSetToken" version="SHA-512:788928769de39f6ca1eb6e3aba21bca968642db94d6d4c8ff3785aa7d5100dd9d86fee89ba6220f208a5c4aca6b75bffaeee5dc3512ccce95c2388c87970fd44"/>
+        <VersionInfo resourceName="ExtractVariablesGetSAMLAssertion" version="SHA-512:0571031cb6647dd08653f313a439a280dfea5678029df084de8710a4562eaa8b72de44b175cca96a4b2c490b3927e0219ce45ca388413f2810a7bf3ffa4964be"/>
+        <VersionInfo resourceName="ExtractVariablesGetSAMLAttributes" version="SHA-512:ec7b56584dacd4fbc97d03896c722b293573bf0d1e498d3068865528e0535e87357b6e25bc1ea08dded383d71850679fd20e803cb3235b1283245143667ceca8"/>
+        <VersionInfo resourceName="JavaScriptDecodeAssertion" version="SHA-512:fcf6c2c6a319472a88db4c709b53516d34460b25d57f34b460b360b46899c0bf7bc983236c027248d90028534dbda9bf3514779912830509e412faabf2e8912f"/>
+        <VersionInfo resourceName="JavaScriptExtractSAMLAttributes" version="SHA-512:6266a83ec129ba6f022d3bf1a6cba248f4c665d0a48426f40e45819d84663c172500cd7ce9b4aa09559aaa51f39b5f8cf20a2261955506ab68ca9531324e1534"/>
+        <VersionInfo resourceName="LookupCacheSAMLToken" version="SHA-512:1296b98baca941b24c69ba4189a4bcc3916bf614092cf863808be6aaa658c49b57c4f7a1f83e486e099c1e02e2fe6cd5646217111df53bb5fea012489a42148d"/>
+        <VersionInfo resourceName="ValidateSAMLAssertion" version="SHA-512:cfc40489d13ede1f6936c356ce11c1082119fc27b8932099b50e875c5eda2c773e1fde43f273cb98fc715edeeb08ee6999e606903b51608a00017ed2f3141904"/>
+        <VersionInfo resourceName="XMLToJSONSAMLToJSON" version="SHA-512:34a525c0bc3f0ec9a8ade8efde456ba73c25f4ad86cd94afe5812ec31a63faee097fe9f9ce6cb4dedbb4e20ee5a6e630d24c2ad182766ef239d890e4bcecfa3e"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources>
+        <VersionInfo resourceName="jsc://decodeAssertion.js" version="SHA-512:e4b15470357f7d3d736365ea56b877c08f0cda53f048e30ba2a8545d44383e245b7b806d148ca60755fe9e99bedaaf6cc056c8238da823a8f31b59b46eb346a1"/>
+        <VersionInfo resourceName="jsc://extractSAMLAttributes.js" version="SHA-512:64eb830605bcedcbbf5495eabc13f552ddaef1f2418c6258027299188bbeba5a500870114c160d550691e582ac3ec741cfc10d48e2fd2f8c1be5632ee25d6f33"/>
+    </Resources>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:e8f92469359ba02f7e4c5bfe3e6effff269e54204485a2af8256b70e131f87a6645e2645aa8051ed496515fa464527d0e5343c7c507c3278d3a31c4cfc34c4a8"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Name>ExtractVariablesGetSAMLAssertion</Name>
+    </Step>
+    <Step>
+        <Name>LookupCacheSAMLToken</Name>
+    </Step>
+    <Step>
+        <Name>AssignMessageSetToken</Name>
+    </Step>
+    <Step>
+        <Name>JavaScriptDecodeAssertion</Name>
+    </Step>
+    <Step>
+        <Name>ValidateSAMLAssertion</Name>
+    </Step>
+    <Step>
+        <Name>XMLToJSONSAMLToJSON</Name>
+    </Step>
+    <Step>
+        <Name>JavaScriptExtractSAMLAttributes</Name>
+    </Step>
+    <Step>
+        <Name>AssignMessageResetContentType</Name>
+    </Step>
+</SharedFlow>

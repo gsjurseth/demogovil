@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractVariables.GetAppDetails">
+    <Source>AccessEntity.AccessEntityAppAttributes</Source>
+    <VariablePrefix>user</VariablePrefix>
+    <XMLPayload>
+        <Variable name="officeNumber" type="string">
+            <XPath>/App/Attributes/Attribute[Name='officeNumber']/Value/text()</XPath>
+        </Variable>
+        <Variable name="department" type="string">
+            <XPath>/App/Attributes/Attribute[Name='department']/Value/text()</XPath>
+        </Variable>
+        <Variable name="role" type="string">
+            <XPath>/App/Attributes/Attribute[Name='role']/Value/text()</XPath>
+        </Variable>
+        <Variable name="name" type="string">
+            <XPath>/App/Attributes/Attribute[Name='Name']/Value/text()</XPath>
+        </Variable>
+    </XMLPayload>
+</ExtractVariables>

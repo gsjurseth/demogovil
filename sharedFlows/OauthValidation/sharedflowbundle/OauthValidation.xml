@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="3" name="OauthValidation">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1524404624774</CreatedAt>
+    <CreatedBy>gsjurseth@google.com</CreatedBy>
+    <Description>Validate a SAML Assertion sent as an Authorization header</Description>
+    <DisplayName>samlHeaderValidation</DisplayName>
+    <LastModifiedAt>1524404942516</LastModifiedAt>
+    <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:d214351cb3c9a6ba10ad2520cc33abd37fd3ceea41a80d91d2535ea4ebf8dc90d2ba54a4a0ced844ca5038b54de50168a47c8782a52544a8eb7fc7f297f0b0c9</ManifestVersion>
+    <Policies>
+        <Policy>AccessEntityAppAttributes</Policy>
+        <Policy>ExtractVariables.GetAppDetails</Policy>
+        <Policy>OAuthVerifyToken</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://decodeAssertion.js</Resource>
+        <Resource>jsc://extractSAMLAttributes.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>
