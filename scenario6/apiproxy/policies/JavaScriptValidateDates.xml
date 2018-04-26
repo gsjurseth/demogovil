@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript async="false" continueOnError="false" enabled="true" timeLimit="200" name="JavaScriptValidateDates">
+    <DisplayName>JavaScript.ValidateDates</DisplayName>
+    <Properties/>
+    <IncludeURL>jsc://moment.min.js</IncludeURL>
+    <ResourceURL>jsc://ValidateDates.js</ResourceURL>
+</Javascript>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessageAssignRequestHeaders" version="SHA-512:d3d3fc4ec48a7d309f0615fe59b6102118e83f6ae9372f1c2c4e200477a54e71213e9b606931acccfb52d6dad0846915912c9a4efe42172e44a73106ce2bc817"/>
+        <VersionInfo resourceName="ExtractVariablesGetQueryParams" version="SHA-512:56b6a5f78cc736f03e58e4faf722c8e3cf0a048bbc9c378f9dfe41c247c556ae60a1801840075a7142f425309bdaea82a75dae751ec385bea63027ab7d70d4fa"/>
+        <VersionInfo resourceName="FlowCallout.Oauth" version="SHA-512:e737048f6fe9c2e6738c33bc9a9e276dc832ac5c44960d6608cd13ae5aa13c58c412f7001d259a09baf57d4d19ce18f41e0afa3da762657fe8252396c1fc0411"/>
+        <VersionInfo resourceName="JavaScriptValidateDates" version="SHA-512:07821c770ec3e096754f5e7d0c8c2e85a9db44f455807239194c9e6382bb748e8610720f742b8a11e8092ea7434629e308969648e02e6beb9505eaa9dd1bb2dc"/>
+        <VersionInfo resourceName="MessageLoggingLoggly" version="SHA-512:cd91243bb5da5a18f4a267876b0102644621b2677e0c72f2dede37b14c2b875dc8833a3392cc1de3559032c88ff19e8c2ad26fb392f0e62c0d8a834b5cbae27e"/>
+        <VersionInfo resourceName="RaiseFaultDateError" version="SHA-512:d0e4218c143f13f63f9c2f962c7d6120794da2f59428ea29a963b8c4e35dcab303bf23934d03dc40482477d084a20215ecf63e24e72039bb405045c94ae75555"/>
+        <VersionInfo resourceName="XMLtoJSON" version="SHA-512:937f72f39d860fa1fa388b57b8417ca55484b9ba058d0ace0932064363c482b9864b4ef861eef230680078a34d60703e87c39e16171ad70203827bc753f63610"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:67ecff965399c7a957b01f5af0f236819c2aa6f8bf4a7828c198537adbac8d6e00bf32e772fab6dafa25f1c53fd5825911d613912857b51cc90386060ae68393"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://ValidateDates.js" version="SHA-512:a2d8a2478570b16a93d29f183b9dedb1e6452732b26238710486c61e853b909006226ca042425fd0109b451eba63b5e36371b02e9de073d3612244af23521ef1"/>
+        <VersionInfo resourceName="jsc://moment.min.js" version="SHA-512:2f49e19a9a0f6da78174a22b09505f3280af09185691a33b4e89fcce57d03ad2ca21feec0c56478247ac0a03031b2a6f0259b1518ab1a9a0d90e7187fd639eb8"/>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:0be21a8ba12a15c67663a4f7f1a064825a6bd57300031a5f54be918fbd09b9e0e2f2856d8161f920e06cea99b5ce1060ecf3bb9e7bde7c5556e837f8b2a97347"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:6ef37e16782d25868159a9a6742457c9923e44270bb66209bec6040f430dc844319e1c4de02d25172c43ecc6f0c88261016cfeb381adce00a1ace771c0a15664"/>
+    </TargetEndpoints>
+</Manifest>

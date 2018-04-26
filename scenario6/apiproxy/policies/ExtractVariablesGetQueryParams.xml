@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="true" enabled="true" name="ExtractVariablesGetQueryParams">
+    <DisplayName>ExtractVariables.GetQueryParams</DisplayName>
+    <Properties/>
+    <QueryParam name="p_date_start">
+        <Pattern ignoreCase="true">{p_date_start}</Pattern>
+    </QueryParam>
+    <QueryParam name="p_date_end">
+        <Pattern ignoreCase="true">{p_date_end}</Pattern>
+    </QueryParam>
+</ExtractVariables>

@@ -31,13 +31,27 @@ In any case, in the SAML token the office number, department, role and name deta
 - The client’s query service (component no. 10) – sends a request to the payments service through the API GW, upon implementation of the identification process that includes the SAML 2.0 token containing the number of the office making the request, the department, role and name of the user making the call to the information service. 
 
 - The API GW component opens the SAML 2.0 token (after checking it’s validity) and records the request in the log (time, office details and user making the request, the query parameters).
-
+i
 - The API GW checks whether the office making the request is permitted access to the requested service, by contacting the access permissions component (component no. 8). If there is no access permission, an error message will be sent back to the user making the request, and the appropriate record identification will be noted in the log component.
 
 - The API GW component transfers the call details to the payments service (including all the query parameters and details of the user making the request).
 
-- The payments service contacts the information permissions component (component no. 4) and receives the list of authorities permitted for viewing by Office B.
+- The payments seurvice contacts the information permissions component (component no. 4) and receives the list of authorities permitted for viewing by Office B.
 
 - The payments service returns an XML that constitutes a list of all the payments matching the query, only for the authorities permitted for viewing by Office B.
 
 - The query results are displayed on the user’s web station in Office B. 
+
+## Running the scenario
+This scenario requires that you first login via oauth. Use that access_token for the next call here:
+
+```bash
+curl -H "Authorization: Bearer access_token" http://demo24-test.apigee.net/saml
+
+```
+
+This login will store a cached copy of the generated SAML token. Now we can do make the actual scenario1 call with the following curl command:
+
+```bash
+curl -H "Authorization: Bearer access_token" 'http://demo24-test.apigee.net/scenario1/payments/search?tz=123456789'
+```
