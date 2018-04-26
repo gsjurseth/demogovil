@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="true" enabled="true" name="SearchPayments-extract-query-param">
+    <DisplayName>SearchPayments Extract Query Param</DisplayName>
+    <Source>request</Source>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+<QueryParam name="tz">
+<Pattern ignoreCase="true">{tz}</Pattern>
+</QueryParam>
+<QueryParam name="p_date_start">
+<Pattern ignoreCase="true">{p_date_start}</Pattern>
+</QueryParam>
+<QueryParam name="p_date-end">
+<Pattern ignoreCase="true">{p_date-end}</Pattern>
+</QueryParam>
+<QueryParam name="authority">
+<Pattern ignoreCase="true">{authority}</Pattern>
+</QueryParam>
+</ExtractVariables>

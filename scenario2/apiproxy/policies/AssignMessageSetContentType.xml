@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="false" name="AssignMessageSetContentType">
+    <DisplayName>AssignMessage.SetContentType</DisplayName>
+    <Set>
+        <Headers>
+            <Header name="Content-Type">application/xml</Header>
+        </Headers>
+    </Set>
+</AssignMessage>

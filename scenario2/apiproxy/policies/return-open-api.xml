@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="return-open-api">
+    <DisplayName>Return Open API</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+        	<StatusCode>200</StatusCode>
+            <Headers>
+            	<Header name="Content-Type">application/json</Header>
+            </Headers>
+            <Payload contentType="application/json" variablePrefix="@" variableSuffix="#">{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Search",
+    "description": "A OAS document generated from WSDL",
+    "termsOfService": "",
+    "contact": {
+      "name": "API Team"
+    },
+    "license": {
+      "name": "Apache 2.0"
+    }
+  },
+  "host": "@request.header.host#",
+  "basePath": "/scenario2",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/payments": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "schema": {
+              "$ref": "#/definitions/SearchPaymentsResponse"
+            }
+          }
+        },
+        "description": "Implements WSDL operation SearchPayments",
+        "parameters": [
+          {
+            "name": "tz",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "p_date_start",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "p_date-end",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "authority",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "SearchPayments": {
+      "properties": {
+        "tz": {
+          "type": "string"
+        },
+        "p_date_start": {
+          "type": "string"
+        },
+        "p_date-end": {
+          "type": "string"
+        },
+        "authority": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "SearchPaymentsResponse": {
+      "properties": {
+        "citizens": {
+          "$ref": "#/definitions/citizens"
+        }
+      },
+      "type": "object"
+    },
+    "citizens": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "PayDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "authority": {
+          "type": "string"
+        },
+        "Total": {
+          "type": "number",
+          "format": "double"
+        },
+        "ConfirmationCode": {
+          "type": "string"
+        }
+      },
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "$ref": "#/definitions/citizens"
+      }
+    }
+  }
+}</Payload>
+        </Set>
+    </FaultResponse>
+</RaiseFault>

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest name="manifest">
     <Policies>
-        <VersionInfo resourceName="AccessEntityAppAttributes" version="SHA-512:bb77c7a997d90ca525de605449d8d68f52930b3b447c07c3679c604dacbc08a2894d67bedeabd9caf52434f8a46610dad543818e8ed10fddf01832385615d39e"/>
-        <VersionInfo resourceName="ExtractVariables.GetAppDetails" version="SHA-512:2daf4c5e87706457c6f435fe3ac0156a15268c95e9cf2d6ac792cfbdb4605607e6e61351973c5f0be478a427aa8fd5d501c3a3204386660b0e8b0e4ecbbb2e30"/>
+        <VersionInfo resourceName="AccessEntity.AppAttributes" version="SHA-512:1b5f947a68e8d085d28fa6acd739e00bf5e3df5b45e62ad591120bcebd77dccce829fab36e82b7e79e03f1b07861230086a5a022990e263ffa4305752d5cabaa"/>
+        <VersionInfo resourceName="ExtractVariables.GetAppDetails" version="SHA-512:79ae744df755cb893c99ba080ceebde942899f30758051b8230046f2d88cf3f882387e204a1f58b9532274fe20ffdf05c1cfac27f6651f252e658bbf79dbf372"/>
         <VersionInfo resourceName="OAuthVerifyToken" version="SHA-512:653abce19de961d9c569eca3ec05c5310ed7b9f0b74f58caa66b6241c7f3f9f5f0d1c1d665a6370e5b03c16988561598d7e64534e4455b3e7225d488f37f6114"/>
     </Policies>
     <ProxyEndpoints/>
     <Resources>
+        <VersionInfo resourceName="jsc://JavaScriptExtract.AppAttributes.js" version="SHA-512:e37eb5c24e11928e0e1e47bb4aea8a915fcf056340649f7c1ba5e4a5a44ade864bd60a9754e47c4c284b7e3b04a895c281311c2867427fdb93c4ad856081b8e3"/>
         <VersionInfo resourceName="jsc://decodeAssertion.js" version="SHA-512:e4b15470357f7d3d736365ea56b877c08f0cda53f048e30ba2a8545d44383e245b7b806d148ca60755fe9e99bedaaf6cc056c8238da823a8f31b59b46eb346a1"/>
         <VersionInfo resourceName="jsc://extractSAMLAttributes.js" version="SHA-512:64eb830605bcedcbbf5495eabc13f552ddaef1f2418c6258027299188bbeba5a500870114c160d550691e582ac3ec741cfc10d48e2fd2f8c1be5632ee25d6f33"/>
     </Resources>
     <SharedFlows>
-        <VersionInfo resourceName="default" version="SHA-512:cf98e23e4aecce2ed3a423f540435d22d2fff8b07e4ecea514afb97fdffef04d3203fbc7445cc7ce44ddacf3987feae68b2d14c3ac8dc2d5c80eaffc4f49a366"/>
+        <VersionInfo resourceName="default" version="SHA-512:73fe4c45d432d670d3d9285d15481628a00393fbaf40988979cc87daa75fbfbc333de32e73bc7c43b9b7cfbe4ea37e40ede0bae79e0be4ff2767285770e6b870"/>
     </SharedFlows>
     <TargetEndpoints/>
 </Manifest>

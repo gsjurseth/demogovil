@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="true" enabled="true" name="SearchPayments-build-soap">
+    <DisplayName>SearchPayments Build SOAP</DisplayName>
+    <Add>
+        <Headers>
+            <Header name="SOAPAction">SearchPayments</Header>
+        </Headers>
+    </Add>
+    <Set>
+        <Headers>
+            <Header name="Content-Type">application/xml</Header>
+        </Headers>
+        <Payload contentType="text/xml">
+            <s11:Envelope xmlns:s11="http://schemas.xmlsoap.org/soap/envelope/">
+                <s11:Header/>
+                <s11:Body>
+                    <ns1:SearchPayments xmlns:ns1="http://www.tibco.com/SearchPaiments/">
+                        <!-- optional -->
+                        <tz>{tz}</tz>
+                        <!-- optional -->
+                        <p_date_start>{p_date_start}</p_date_start>
+                        <!-- optional -->
+                        <p_date-end>{p_date-end}</p_date-end>
+                        <!-- optional -->
+                        <authority>{authority}</authority>
+                    </ns1:SearchPayments>
+                </s11:Body>
+            </s11:Envelope>
+        </Payload>
+        <Verb>POST</Verb>
+    </Set>
+    <AssignVariable>
+        <Name>forward.target.url</Name>
+        <Value>http://tibco-demo.yaelsoft.com:10010/WebService/search</Value>
+    </AssignVariable>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

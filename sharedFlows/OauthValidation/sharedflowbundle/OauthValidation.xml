@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<SharedFlowBundle revision="3" name="OauthValidation">
+<SharedFlowBundle revision="5" name="OauthValidation">
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
-    <CreatedAt>1524404624774</CreatedAt>
+    <CreatedAt>1524749966507</CreatedAt>
     <CreatedBy>gsjurseth@google.com</CreatedBy>
     <Description>Validate a SAML Assertion sent as an Authorization header</Description>
     <DisplayName>samlHeaderValidation</DisplayName>
-    <LastModifiedAt>1524404942516</LastModifiedAt>
+    <LastModifiedAt>1524749966507</LastModifiedAt>
     <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:d214351cb3c9a6ba10ad2520cc33abd37fd3ceea41a80d91d2535ea4ebf8dc90d2ba54a4a0ced844ca5038b54de50168a47c8782a52544a8eb7fc7f297f0b0c9</ManifestVersion>
+    <ManifestVersion>SHA-512:9fbbae904a6a386ce0070f16fa60ebf9d2b35b0a4ea109f378d6d8ce6efc661fd15b810f9bada2d77520d780937f2f79a50981b5d72e16edba144fccaf50355c</ManifestVersion>
     <Policies>
-        <Policy>AccessEntityAppAttributes</Policy>
+        <Policy>AccessEntity.AppAttributes</Policy>
         <Policy>ExtractVariables.GetAppDetails</Policy>
         <Policy>OAuthVerifyToken</Policy>
     </Policies>
     <Resources>
+        <Resource>jsc://JavaScriptExtract.AppAttributes.js</Resource>
         <Resource>jsc://decodeAssertion.js</Resource>
         <Resource>jsc://extractSAMLAttributes.js</Resource>
     </Resources>

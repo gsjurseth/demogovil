@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="scenario2">
+    <Basepaths>/scenario2</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1524728415507</CreatedAt>
+    <CreatedBy>gsjurseth@google.com</CreatedBy>
+    <Description>Search</Description>
+    <DisplayName>Search</DisplayName>
+    <LastModifiedAt>1524732559505</LastModifiedAt>
+    <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:4f54a617ce6900ab52827586ddefddb08ab2da584db8a1eeb271a323c3b8147982cc72156221938fe2e1233d5e0a31796f426f99bdfb9ac64702a311607521cb</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessageSetContentType</Policy>
+        <Policy>AssignMessageSetQueryString</Policy>
+        <Policy>FlowCalloutOauthValidation</Policy>
+        <Policy>GenerateSAMLAssertionInsertToken</Policy>
+        <Policy>MessageLogging.Loggly</Policy>
+        <Policy>SearchPayments-build-soap</Policy>
+        <Policy>SearchPayments-extract-query-param</Policy>
+        <Policy>extract-format</Policy>
+        <Policy>get-response-soap-body-xml</Policy>
+        <Policy>get-response-soap-body</Policy>
+        <Policy>remove-empty-nodes</Policy>
+        <Policy>remove-namespaces</Policy>
+        <Policy>return-generic-error-accept</Policy>
+        <Policy>return-generic-error</Policy>
+        <Policy>return-open-api</Policy>
+        <Policy>set-response-soap-body-accept</Policy>
+        <Policy>set-response-soap-body</Policy>
+        <Policy>set-target-url</Policy>
+        <Policy>unknown-resource-xml</Policy>
+        <Policy>unknown-resource</Policy>
+        <Policy>xml-to-json</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>xsl://remove-empty-nodes.xslt</Resource>
+        <Resource>xsl://remove-namespaces.xslt</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

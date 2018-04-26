@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AssignMessageSetQueryString">
+    <DisplayName>AssignMessage.SetQueryString</DisplayName>
+    <AssignVariable>
+        <Name>querystring</Name>
+        <Ref>request.querystring</Ref>
+    </AssignVariable>
+</AssignMessage>

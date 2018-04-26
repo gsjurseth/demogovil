@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractVariables.GetAppDetails">
-    <Source>AccessEntity.AccessEntityAppAttributes</Source>
-    <VariablePrefix>user</VariablePrefix>
+    <Source>AccessEntity.AccessEntity.AppAttributes</Source>
     <XMLPayload>
         <Variable name="officeNumber" type="string">
             <XPath>/App/Attributes/Attribute[Name='officeNumber']/Value/text()</XPath>
