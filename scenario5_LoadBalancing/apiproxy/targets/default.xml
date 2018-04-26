@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>AssignMessageAssignRequestHeaders</Name>
+            </Step>
+        </Request>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows/>
+    <HTTPTargetConnection>
+        <LoadBalancer>
+            <Server name="be1"/>
+            <Server name="be2"/>
+        </LoadBalancer>
+        <Path>/payments</Path>
+    </HTTPTargetConnection>
+</TargetEndpoint>
