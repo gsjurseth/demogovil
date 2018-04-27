@@ -25,7 +25,7 @@ With this fetched you can then call the other services in the different scenario
 - :red_circle: [scenario4](/scenario4)
 - :heavy_check_mark: [scenario5_LoadBalancing](/scenario5_LoadBalancing)
 - :heavy_check_mark: [scenario5_SLA](/scenario5_SLA)
-- :red_circle: [scenario6](/scenario6)
+- :heavy_check_mark: [scenario6](/scenario6)
 - :red_circle: [scenario7](/scenario7)
 - :red_circle: [scenario8](/scenario8)
 - :red_circle: [scenario9](/scenario9)
