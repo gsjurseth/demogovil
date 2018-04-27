@@ -33,8 +33,7 @@ The communication protocol between the office making the request and the API GW 
 Calling scenario2 requires the bearer token. Once you have that simply do the following:
 
 ```bash
-curl -H "Authorization: Bearer access_token" 'http://demo24-test.apigee.net/
-scenario2/payments?p_date_start=01-01-2016&p_date-end=31-12-2016&authority=9'
+curl -H "Authorization: Bearer access_token" 'http://demo24-test.apigee.net/scenario2/payments?p_date_start=01-01-2016&p_date-end=31-12-2016&authority=9'
 
 ```
 

@@ -7,7 +7,7 @@ It might be worthwhile showing the different balancing algorithms for this ... A
 ## Run the scenario
 
 ```bash
-curl -H "Authorization: access_token" 'http://demo24-test.apigee.net/Scenario5_LoadBalancing/payments/search?tz=123456789'
+curl -H "Authorization: access_token" 'http://demo24-test.apigee.net/Scenario5_LoadBalancing/payments/search?p_date_start=01-01-2016&p_date-end=01-01-2017
 
 ```
 
