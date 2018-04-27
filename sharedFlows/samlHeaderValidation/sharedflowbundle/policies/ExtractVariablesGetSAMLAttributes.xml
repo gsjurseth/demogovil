@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ExtractVariables async="false" continueOnError="false" enabled="false" name="ExtractVariablesGetSAMLAttributes">
-    <DisplayName>ExtractVariables.GetSAMLAttributes</DisplayName>
-    <JSONPayload>
-        <Variable name="latitude" type="float">
-            <JSONPath>$.results[0].geometry.location.lat</JSONPath>
-        </Variable>
-    </JSONPayload>
-</ExtractVariables>

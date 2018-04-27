@@ -21,7 +21,4 @@
     <Step>
         <Name>JavaScriptExtractSAMLAttributes</Name>
     </Step>
-    <Step>
-        <Name>AssignMessageResetContentType</Name>
-    </Step>
 </SharedFlow>

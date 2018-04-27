@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<SharedFlowBundle revision="4" name="samlHeaderValidation">
+<SharedFlowBundle revision="5" name="samlHeaderValidation">
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
     <CreatedAt>1524326609295</CreatedAt>
     <CreatedBy>gsjurseth@google.com</CreatedBy>
     <Description>Validate a SAML Assertion sent as an Authorization header</Description>
     <DisplayName>samlHeaderValidation</DisplayName>
-    <LastModifiedAt>1524403782932</LastModifiedAt>
+    <LastModifiedAt>1524835432884</LastModifiedAt>
     <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:55df60baaf37908db8729d65d29f54d2af8f781f96f6ef5d818dfd51d889ef3bbaf863b16d9d526a8fb03d2602cb1f2896e77b4f561f30daf509af22d3ab4e31</ManifestVersion>
+    <ManifestVersion>SHA-512:33de73d3d8c952920df3ef2c906bcb2cf072593015ab76b2effe9ee397efbee4afae328e738e891659073fa1cc6f40a1eb2c8f3c720d59b976b8e1c04067cd29</ManifestVersion>
     <Policies>
         <Policy>AssignMessageResetContentType</Policy>
         <Policy>AssignMessageSetToken</Policy>
         <Policy>ExtractVariablesGetSAMLAssertion</Policy>
-        <Policy>ExtractVariablesGetSAMLAttributes</Policy>
         <Policy>JavaScriptDecodeAssertion</Policy>
         <Policy>JavaScriptExtractSAMLAttributes</Policy>
         <Policy>LookupCacheSAMLToken</Policy>
