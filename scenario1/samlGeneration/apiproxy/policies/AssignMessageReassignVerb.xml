@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AssignMessageReassignVerb">
+    <DisplayName>AssignMessage.ReassignVerb</DisplayName>
+    <AssignVariable>
+        <Name>VERB</Name>
+        <Value>GET</Value>
+        <Ref/>
+    </AssignVariable>
+</AssignMessage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache async="false" continueOnError="false" enabled="true" name="PopulateCacheStoreSAMLToken">
+    <DisplayName>PopulateCache.StoreSAMLToken</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment ref="apigee.access_token"/>
+    </CacheKey>
+    <CacheResource>samlCache</CacheResource>
+    <Scope>Global</Scope>
+    <ExpirySettings>
+        <TimeoutInSec>3599</TimeoutInSec>
+    </ExpirySettings>
+    <Source>assertion.content</Source>
+</PopulateCache>

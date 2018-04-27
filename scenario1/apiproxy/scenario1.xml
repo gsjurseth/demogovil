@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="2" name="scenario1">
+<APIProxy revision="3" name="scenario1">
     <Basepaths>/scenario1/payments</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
     <CreatedAt>1523973703041</CreatedAt>
     <CreatedBy>gsjurseth@google.com</CreatedBy>
     <Description>Summary about the new REST service.</Description>
     <DisplayName>scenario1</DisplayName>
-    <LastModifiedAt>1524403984571</LastModifiedAt>
+    <LastModifiedAt>1524838439028</LastModifiedAt>
     <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:d76bd0a3f0aaa36f9e9cde997b93a67ab5e287d7b4791992694731ce24ba73ce1cdbcac3e2c6224c799830e649a567008ec4f7811e454480f82d038b97734d8f</ManifestVersion>
+    <ManifestVersion>SHA-512:45176c6b0b78ecb13b81518ecfdf03058fa9f3301c0347fb4e739cadc88717a6e80456acd10876b725cdacf78e989990e2dfdf73e0d7c559d1e140b00c5631bc</ManifestVersion>
     <Policies>
         <Policy>AssignMessageAssignRequestHeaders</Policy>
         <Policy>FlowCalloutSAML</Policy>
-        <Policy>MessageLoggingLoggly</Policy>
+        <Policy>MessageLogging.Loggly</Policy>
         <Policy>XMLtoJSON</Policy>
     </Policies>
     <ProxyEndpoints>

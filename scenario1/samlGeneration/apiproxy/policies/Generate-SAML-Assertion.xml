@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenerateSAMLAssertion ignoreContentType="false" name="Generate-SAML-Assertion">
+    <DisplayName>Generate SAML Assertion</DisplayName>
+    <KeyStore>
+        <Name ref="reference">freetrial</Name>
+        <Alias ref="reference">freetrial</Alias>
+    </KeyStore>
+    <Subject ref="reference">govil</Subject>
+    <Issuer ref="reference">govil</Issuer>
+    <Template ignoreUnresolvedVariables="true"><![CDATA[
+<saml:Assertion 
+    xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" 
+    xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    Version="2.0">
+<saml:AttributeStatement>
+    <saml:Attribute Name="officeNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+        <saml:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">{officeNumber}</saml:AttributeValue>
+    </saml:Attribute>
+    <saml:Attribute Name="department" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+        <saml:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">{department}</saml:AttributeValue>
+    </saml:Attribute>
+    <saml:Attribute Name="role" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+        <saml:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">{role}</saml:AttributeValue>
+    </saml:Attribute>
+    <saml:Attribute Name="fullName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+        <saml:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">{name}</saml:AttributeValue>
+    </saml:Attribute>
+    <saml:Attribute Name="userId" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+        <saml:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">{apigee.client_id}</saml:AttributeValue>
+    </saml:Attribute>  </saml:AttributeStatement>
+</saml:Assertion>
+]]></Template>
+    <OutputVariable>
+        <FlowVariable name="assertion.content"/>
+    </OutputVariable>
+</GenerateSAMLAssertion>

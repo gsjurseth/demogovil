@@ -6,7 +6,7 @@
         <VersionInfo resourceName="AssignMessageSetQueryString" version="SHA-512:a96f94b5d355f80df5065e476a0ccad4d7a1a1a81a3f7bc5c6ea0855f723791e8a4d8c1a9d52fcb00466e262b332ec2c63ff298c6f9c79d9d4690d473e33e338"/>
         <VersionInfo resourceName="FlowCalloutOauthValidation" version="SHA-512:71552dba0edbfa0a2bf1fba424eccbc00d14bae879c9ebd6085f9d1efafe957b4c76d4bee0642b33f211f82234aeff9ca7d2beb375db165d6a228d5096e87ff1"/>
         <VersionInfo resourceName="GenerateSAMLAssertionInsertToken" version="SHA-512:239eb5e48a0b69a89ac6e2f2fc99d614d29e2eed65e4f1b58b90e222414ab5b3ca8e6962c6b4f2b2c6888b9238b1d808fe83d75b06b157901efbbc86fcf33e24"/>
-        <VersionInfo resourceName="MessageLogging.Loggly" version="SHA-512:49f28eebf30869225c08f82b3aeac83f9e51b5ad45f465a8555c8d8dee015a4749d04ffb0a46887499c26889170d6de88e2f81fb71a05857635f007718ff91fa"/>
+        <VersionInfo resourceName="MessageLogging.Loggly" version="SHA-512:4edaf5ab48e9af9234bd25f041d59726a01e7b090ab4cf7585bd8b5b1aa4465ac2ff3128b8be1a1fd2ac25ebeb48249715e83c876859b2e2257ad7c637e40700"/>
         <VersionInfo resourceName="SearchPayments-build-soap" version="SHA-512:9b182a1cf2fd7dc5b79803d4b36667f8cb0f7a2f826821bd5328df0dc2fb91b13cc21aeade09f9a42228492c79b6f32477ae58b59e4b032e06db7c96f2eb588a"/>
         <VersionInfo resourceName="SearchPayments-extract-query-param" version="SHA-512:8248fe3e120a902a3d2b4bfca42ce08f31c5af11e0a6e65a61d599914fba7db9266a4bac670f2d07ed2f6a7076691aa4e5df009f79e8542982ad43123ccd9209"/>
         <VersionInfo resourceName="extract-format" version="SHA-512:d4fa1639b4c5c3bdd5cff9ce3da1f2c6781d7e57b6c5274083775d16288b21a3bd5adc80175bd6395a7ee5efb9791b7dabed1018727f7f28410bcccf0e34147d"/>

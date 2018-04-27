@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="samlGeneration">
+    <Basepaths>/saml</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1524838532070</CreatedAt>
+    <CreatedBy>gsjurseth@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>saml</DisplayName>
+    <LastModifiedAt>1524838532070</LastModifiedAt>
+    <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:a41f3f2a3a75814a261975c296e03dd75fbacd3015e69ab13c05a0d937ac4428ed5155aad99a2535ea99ae2ab758fc66e471fd6b0b0fa10c99c3fa276a3cd0be</ManifestVersion>
+    <Policies>
+        <Policy>Assign-SAML-Response</Policy>
+        <Policy>AssignMessageReassignVerb</Policy>
+        <Policy>AssignMessageUpdateRequestForSAML</Policy>
+        <Policy>FlowCalloutOauthValidation</Policy>
+        <Policy>Generate-SAML-Assertion</Policy>
+        <Policy>JavaScriptSAMLVariables</Policy>
+        <Policy>PopulateCacheStoreSAMLToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://moment.min.js</Resource>
+        <Resource>jsc://samlVars.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

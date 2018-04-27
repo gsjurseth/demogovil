@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Assign-SAML-Response" version="SHA-512:636c605ef26090620dd60e905884eac6a94a89e06713eed9a92edbc3aa4bea8ab1fbba41ae329f91672ea93921fc0f5b5666ae39e0af11ec69350e92732421cb"/>
+        <VersionInfo resourceName="AssignMessageReassignVerb" version="SHA-512:43ef0fee842cdc22ff32650c541d240a71d0eb7efea64de347d23a7482fc558057f3d2f9fc421ef83c0d13c5b0201e69d92b0aabc222ada60b4cc44535f1d6e7"/>
+        <VersionInfo resourceName="AssignMessageUpdateRequestForSAML" version="SHA-512:d228b909771f78ee0efb5f9672288a07a6a6204395cf7c61d7e4e186910fdd12db2c03ff12eaefb917b386f6d1081a1d12979f11cdf61d420f61f8b8a98a9c77"/>
+        <VersionInfo resourceName="FlowCalloutOauthValidation" version="SHA-512:4f25c0a92b516eae7ffffc7af939a0d3c665b75d5c39913d57e277b2ee67770a9fd813c06b1be827ef8126d96d211026443afe0be525b9fda592d0b9ab03190b"/>
+        <VersionInfo resourceName="Generate-SAML-Assertion" version="SHA-512:8a8ac4c280b12331a34d637d04b5d5bab2fb4b38b047882dab009440f95bce915a351ca72ccf4ed84cb2a1ff8416515610386b054c700817673c0e007991f7b4"/>
+        <VersionInfo resourceName="JavaScriptSAMLVariables" version="SHA-512:007bb2c6985b9d842f5edea9d7698ac58b766469f6eeb01e67400068052add876d02167fa11eb8ad800080fd9db8d667fb5280933d64578a544ce0ab1f2fed64"/>
+        <VersionInfo resourceName="PopulateCacheStoreSAMLToken" version="SHA-512:0e0d093d1c51ca800d6f11af74188f38771476c7b3566ab45498752c764ff7177138fe4c722ed10f3377e2c6ea8d637abae6f1177a72872dc2006b27db939f52"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:be2887310681762f4cbc4aa4eb56fd8afb57ccc991ec952eaf1a1c17cf887acee6268e8a1c488f77ecc4fb6d175a1750f51bc63a4d7e21889f26b2f258368c5b"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://moment.min.js" version="SHA-512:2f49e19a9a0f6da78174a22b09505f3280af09185691a33b4e89fcce57d03ad2ca21feec0c56478247ac0a03031b2a6f0259b1518ab1a9a0d90e7187fd639eb8"/>
+        <VersionInfo resourceName="jsc://samlVars.js" version="SHA-512:7a407e2a39211c4be3ffd2858d282bce2b38181ed1ae13e075981e7223c1625c0aadf0b576233fd7700b430428d7e97809af7fd5faf46a6d3b1bc0a7c8a29bfe"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

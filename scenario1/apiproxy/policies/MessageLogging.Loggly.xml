@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<MessageLogging async="false" continueOnError="false" enabled="true" name="MessageLoggingLoggly">
+<MessageLogging async="false" continueOnError="false" enabled="true" name="MessageLogging.Loggly">
     <DisplayName>MessageLogging.Loggly</DisplayName>
     <Syslog>
         <Message>[d3ce7d4b-414b-43d2-b35d-6587f90cb8db@41058
             tag="{organization.name}.{apiproxy.name}.{environment.name}"]
             scenario:"Scenario1"
             queryString:"{request.querystring}"
-            fullName:"{fullName}"
+            fullName:"{name}"
             userId:"{userId}"
             officeNumber:"{officeNumber}"
             department:"{department}"

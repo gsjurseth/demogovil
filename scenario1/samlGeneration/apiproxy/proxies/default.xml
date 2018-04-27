@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>FlowCalloutOauthValidation</Name>
+            </Step>
+        </Request>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response>
+            <Step>
+                <Name>JavaScriptSAMLVariables</Name>
+            </Step>
+            <Step>
+                <Name>AssignMessageUpdateRequestForSAML</Name>
+            </Step>
+            <Step>
+                <Name>Generate-SAML-Assertion</Name>
+            </Step>
+            <Step>
+                <Name>Assign-SAML-Response</Name>
+            </Step>
+            <Step>
+                <Name>AssignMessageReassignVerb</Name>
+            </Step>
+            <Step>
+                <Name>PopulateCacheStoreSAMLToken</Name>
+            </Step>
+        </Response>
+    </PostFlow>
+    <Flows/>
+    <HTTPProxyConnection>
+        <BasePath>/saml</BasePath>
+        <Properties/>
+        <VirtualHost>secure</VirtualHost>
+        <VirtualHost>default</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="noroute"/>
+</ProxyEndpoint>

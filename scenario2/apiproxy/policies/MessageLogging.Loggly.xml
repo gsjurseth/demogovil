@@ -6,11 +6,11 @@
             tag="{organization.name}.{apiproxy.name}.{environment.name}"]
             scenario:"Scenario2"
             queryString:"{querystring}"
-            fullName:"{user.name}"
+            fullName:"{name}"
             userId:"{apigee.client_id}"
-            officeNumber:"{user.officeNumber}"
-            department:"{user.department}"
-            role:"{user.role}"</Message>
+            officeNumber:"{officeNumber}"
+            department:"{department}"
+            role:"{role}"</Message>
         <Host>logs-01.loggly.com</Host>
         <Port>514</Port>
     </Syslog>

@@ -6,9 +6,9 @@
     <CreatedBy>gsjurseth@google.com</CreatedBy>
     <Description>Search</Description>
     <DisplayName>Search</DisplayName>
-    <LastModifiedAt>1524831540829</LastModifiedAt>
+    <LastModifiedAt>1524839096834</LastModifiedAt>
     <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:a487d8c0ab4fcc1fa1e25f21358e4a722cc23df2d55a889c82ed2570d9288ecac6b5f0dbd9efac9faae32f72ad11b1646d2f6dd7b2daf691adddb96070dd1082</ManifestVersion>
+    <ManifestVersion>SHA-512:5e60f8f55cdd4dac7f7f3db6d047b54d2ef18d9a9ac70ac5838310972aad98c449e283172c8a49b873332642c2930dd37d856257299404010d8845e851b260a7</ManifestVersion>
     <Policies>
         <Policy>AssignMessage.SetContentTypeJSON</Policy>
         <Policy>AssignMessageSetContentType</Policy>
