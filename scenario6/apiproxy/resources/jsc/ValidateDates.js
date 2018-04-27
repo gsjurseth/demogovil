@@ -3,9 +3,11 @@ var end     = context.getVariable('p_date_end');
 
 if ( start.split('-').length !== 3 ) {
     start = start + "-" + moment().format('YYYY');
+    context.setVariable('p_date_start', start);
 }
 if ( end.split('-').length !== 3 ) {
     end = end + "-" + moment().format('YYYY');
+    context.setVariable('p_date_end', end);
 }
 
 

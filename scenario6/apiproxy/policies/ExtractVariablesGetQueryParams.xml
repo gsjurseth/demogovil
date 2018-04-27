@@ -5,7 +5,7 @@
     <QueryParam name="p_date_start">
         <Pattern ignoreCase="true">{p_date_start}</Pattern>
     </QueryParam>
-    <QueryParam name="p_date_end">
+    <QueryParam name="p_date-end">
         <Pattern ignoreCase="true">{p_date_end}</Pattern>
     </QueryParam>
 </ExtractVariables>

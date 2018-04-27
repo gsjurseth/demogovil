@@ -2,23 +2,26 @@
 <Manifest name="manifest">
     <Policies>
         <VersionInfo resourceName="AssignMessageAssignRequestHeaders" version="SHA-512:d3d3fc4ec48a7d309f0615fe59b6102118e83f6ae9372f1c2c4e200477a54e71213e9b606931acccfb52d6dad0846915912c9a4efe42172e44a73106ce2bc817"/>
-        <VersionInfo resourceName="ExtractVariablesGetQueryParams" version="SHA-512:56b6a5f78cc736f03e58e4faf722c8e3cf0a048bbc9c378f9dfe41c247c556ae60a1801840075a7142f425309bdaea82a75dae751ec385bea63027ab7d70d4fa"/>
+        <VersionInfo resourceName="AssignMessageSetQueryString" version="SHA-512:2df327a0c19ef6873da131dc136c580408ac4ba2c98f6869fdb2aacf633b0c5891e0dce8f272283532e079c1b401769f89898f5f698f870d52d8b9ec8e04c620"/>
+        <VersionInfo resourceName="ExtractVariablesGetQueryParams" version="SHA-512:47f8bdcb923364420bb637f200b1b855c98945178f510f22f7be351a2cc1af918f76fb1ce8b8ab8a319a77ead478d174254c40bc25606d3807ff524dc42c65bc"/>
         <VersionInfo resourceName="FlowCallout.Oauth" version="SHA-512:e737048f6fe9c2e6738c33bc9a9e276dc832ac5c44960d6608cd13ae5aa13c58c412f7001d259a09baf57d4d19ce18f41e0afa3da762657fe8252396c1fc0411"/>
+        <VersionInfo resourceName="JavaScriptMaskIDs" version="SHA-512:d841b4d96b7134c1be740abb134e5cb387ab4f5dd7d3a81ca4121f14b8fadabc5438a21d2fc987dcb3f1a0108e2384e2dbf8921ff493ce7d10045d01bc06e043"/>
         <VersionInfo resourceName="JavaScriptValidateDates" version="SHA-512:07821c770ec3e096754f5e7d0c8c2e85a9db44f455807239194c9e6382bb748e8610720f742b8a11e8092ea7434629e308969648e02e6beb9505eaa9dd1bb2dc"/>
         <VersionInfo resourceName="MessageLoggingLoggly" version="SHA-512:cd91243bb5da5a18f4a267876b0102644621b2677e0c72f2dede37b14c2b875dc8833a3392cc1de3559032c88ff19e8c2ad26fb392f0e62c0d8a834b5cbae27e"/>
         <VersionInfo resourceName="RaiseFaultDateError" version="SHA-512:d0e4218c143f13f63f9c2f962c7d6120794da2f59428ea29a963b8c4e35dcab303bf23934d03dc40482477d084a20215ecf63e24e72039bb405045c94ae75555"/>
         <VersionInfo resourceName="XMLtoJSON" version="SHA-512:937f72f39d860fa1fa388b57b8417ca55484b9ba058d0ace0932064363c482b9864b4ef861eef230680078a34d60703e87c39e16171ad70203827bc753f63610"/>
     </Policies>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:67ecff965399c7a957b01f5af0f236819c2aa6f8bf4a7828c198537adbac8d6e00bf32e772fab6dafa25f1c53fd5825911d613912857b51cc90386060ae68393"/>
+        <VersionInfo resourceName="default" version="SHA-512:b491af2430d939b124ab77eb7ecd142883f045e518dbdeffee193026e74ff477b91c84410a5fe8658d7844080854e39dabdbe01d4fde9b39a83a8de21d34a54e"/>
     </ProxyEndpoints>
     <Resources>
-        <VersionInfo resourceName="jsc://ValidateDates.js" version="SHA-512:a2d8a2478570b16a93d29f183b9dedb1e6452732b26238710486c61e853b909006226ca042425fd0109b451eba63b5e36371b02e9de073d3612244af23521ef1"/>
+        <VersionInfo resourceName="jsc://MaskIDs.js" version="SHA-512:028a7712657a9532f264ee53a4346351e51bb7805bd2b4e862785e70cb0bb4a291de89251299a1736af5ccdb27929a74a1aaf575d4336879e8250d55c14a30ac"/>
+        <VersionInfo resourceName="jsc://ValidateDates.js" version="SHA-512:d579a506b15458bd60597df52d8d649ca22ab101ae3b99ed800f6138dfabe311d38a65e8196174e2a3c5351b6dc4b898717a4e8ca1a08ee2902dcd472380d86d"/>
         <VersionInfo resourceName="jsc://moment.min.js" version="SHA-512:2f49e19a9a0f6da78174a22b09505f3280af09185691a33b4e89fcce57d03ad2ca21feec0c56478247ac0a03031b2a6f0259b1518ab1a9a0d90e7187fd639eb8"/>
         <VersionInfo resourceName="openapi://association.json" version="SHA-512:0be21a8ba12a15c67663a4f7f1a064825a6bd57300031a5f54be918fbd09b9e0e2f2856d8161f920e06cea99b5ce1060ecf3bb9e7bde7c5556e837f8b2a97347"/>
     </Resources>
     <SharedFlows/>
     <TargetEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:6ef37e16782d25868159a9a6742457c9923e44270bb66209bec6040f430dc844319e1c4de02d25172c43ecc6f0c88261016cfeb381adce00a1ace771c0a15664"/>
+        <VersionInfo resourceName="default" version="SHA-512:76de7f0db0e8dcc9331ee21ab4d0c06e6c1b4222e7848680b8762faa244ad426c422312a173d01f8283a85e74d8421a21b6647e3ed1506d6f1c84fd899a72d31"/>
     </TargetEndpoints>
 </Manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AssignMessageSetQueryString">
+    <DisplayName>AssignMessage.SetQueryString</DisplayName>
+    <Set>
+        <QueryParams>
+            <QueryParam name="p_date_start">{p_date_start}</QueryParam>
+            <QueryParam name="p_date-end">{p_date_end}</QueryParam>
+        </QueryParams>
+    </Set>
+</AssignMessage>

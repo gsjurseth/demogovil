@@ -7,12 +7,19 @@
             <Step>
                 <Name>AssignMessageAssignRequestHeaders</Name>
             </Step>
+            <Step>
+                <Name>AssignMessageSetQueryString</Name>
+            </Step>
         </Request>
         <Response/>
     </PreFlow>
     <PostFlow name="PostFlow">
         <Request/>
-        <Response/>
+        <Response>
+            <Step>
+                <Name>JavaScriptMaskIDs</Name>
+            </Step>
+        </Response>
     </PostFlow>
     <Flows/>
     <HTTPTargetConnection>

@@ -6,13 +6,15 @@
     <CreatedBy>gsjurseth@google.com</CreatedBy>
     <Description>Summary about the new REST service.</Description>
     <DisplayName>scenario1</DisplayName>
-    <LastModifiedAt>1524780130699</LastModifiedAt>
+    <LastModifiedAt>1524840537954</LastModifiedAt>
     <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:087208ac9c10851a27fa7a75dc5671921062cf03240e6391b815bc06a1eca8221adfcc1e45e80014706c117fbb2a5f8f67202d3b0583467da52e02422b9ffdb9</ManifestVersion>
+    <ManifestVersion>SHA-512:69a20e2951dea09e71f7d4c390d35fab5418429948849fc0c074c7da8a1ff1a01206bfa644ea45b8046506cb04d8da3ae7a43a0d5c86b210123c08bc32ee45fb</ManifestVersion>
     <Policies>
         <Policy>AssignMessageAssignRequestHeaders</Policy>
+        <Policy>AssignMessageSetQueryString</Policy>
         <Policy>ExtractVariablesGetQueryParams</Policy>
         <Policy>FlowCallout.Oauth</Policy>
+        <Policy>JavaScriptMaskIDs</Policy>
         <Policy>JavaScriptValidateDates</Policy>
         <Policy>MessageLoggingLoggly</Policy>
         <Policy>RaiseFaultDateError</Policy>
@@ -23,6 +25,7 @@
     </ProxyEndpoints>
     <Resources>
         <Resource>openapi://association.json</Resource>
+        <Resource>jsc://MaskIDs.js</Resource>
         <Resource>jsc://ValidateDates.js</Resource>
         <Resource>jsc://moment.min.js</Resource>
     </Resources>
