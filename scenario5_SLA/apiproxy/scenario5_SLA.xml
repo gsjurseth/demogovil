@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="scenario5_SLA">
+    <Basepaths>/scenario1/payments</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1524733299026</CreatedAt>
+    <CreatedBy>gsjurseth@google.com</CreatedBy>
+    <Description>Summary about the new REST service.</Description>
+    <DisplayName>scenario1</DisplayName>
+    <LastModifiedAt>1524815353142</LastModifiedAt>
+    <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:776d21d4546d2b28a1f56757ae6ce5e22957a57ba2ff28e31f73a211d53eccdce9aa395f64a4fd7c1c7e6cab45cbe0611119c39df105c6f1611504d9cce7f66d</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessageAssignRequestHeaders</Policy>
+        <Policy>FlowCallout.Oauth</Policy>
+        <Policy>MessageLoggingLoggly</Policy>
+        <Policy>XMLtoJSON</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>office2</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
