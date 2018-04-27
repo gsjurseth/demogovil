@@ -1,9 +1,5 @@
 # Scenario Number 1 – Exposing the Payments Service on the API GW (REST Service)
 
-## The System Context
-Once again here is the system context
-![alt text](../resources/images/SystemContext.png "System Context")
-
 ## Overview
 Examples of a request made to the payments service (each request will send back an XML that includes all the relevant records that meet the query criterion, in a uniform and complete structure – with all the fields appearing in the table):
 - Obtaining all the payments made by a civilian with a specific ID number
@@ -53,5 +49,5 @@ curl -H "Authorization: Bearer access_token" http://demo24-test.apigee.net/saml
 This login will store a cached copy of the generated SAML token. Now we can do make the actual scenario1 call with the following curl command:
 
 ```bash
-curl -H "Authorization: Bearer access_token" 'http://demo24-test.apigee.net/scenario1/payments/search?tz=123456789'
+curl -H "Authorization: Bearer access_token" 'http://demo24-test.apigee.net/scenario1/payments/search?p_date_start=01-01-2016&p_date-end=01-01-2017'
 ```
