@@ -6,9 +6,9 @@
     <CreatedBy>gsjurseth@google.com</CreatedBy>
     <Description>Summary about the new REST service.</Description>
     <DisplayName>scenario1</DisplayName>
-    <LastModifiedAt>1524840537954</LastModifiedAt>
+    <LastModifiedAt>1524841191688</LastModifiedAt>
     <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:69a20e2951dea09e71f7d4c390d35fab5418429948849fc0c074c7da8a1ff1a01206bfa644ea45b8046506cb04d8da3ae7a43a0d5c86b210123c08bc32ee45fb</ManifestVersion>
+    <ManifestVersion>SHA-512:ea5cba8adc292e0649d8b815e2165bd5a2c904fcf2194cbfabe714ece061ce7a945d3496298979828e3ca0fde58db3f0d9103ff6538d5e572f18cb4dfca263f5</ManifestVersion>
     <Policies>
         <Policy>AssignMessageAssignRequestHeaders</Policy>
         <Policy>AssignMessageSetQueryString</Policy>

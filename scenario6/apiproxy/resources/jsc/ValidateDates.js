@@ -1,5 +1,10 @@
 var start   = context.getVariable('p_date_start');
-var end     = context.getVariable('p_date_end');
+var end     = context.getVariable('p_date_end')
+
+if ( end == null) {
+    var end = moment().format('DD-MM-YYYY');
+    context.setVariable('p_date_end', end);
+}
 
 if ( start.split('-').length !== 3 ) {
     start = start + "-" + moment().format('YYYY');

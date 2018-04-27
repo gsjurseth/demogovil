@@ -16,7 +16,7 @@
     </ProxyEndpoints>
     <Resources>
         <VersionInfo resourceName="jsc://MaskIDs.js" version="SHA-512:028a7712657a9532f264ee53a4346351e51bb7805bd2b4e862785e70cb0bb4a291de89251299a1736af5ccdb27929a74a1aaf575d4336879e8250d55c14a30ac"/>
-        <VersionInfo resourceName="jsc://ValidateDates.js" version="SHA-512:d579a506b15458bd60597df52d8d649ca22ab101ae3b99ed800f6138dfabe311d38a65e8196174e2a3c5351b6dc4b898717a4e8ca1a08ee2902dcd472380d86d"/>
+        <VersionInfo resourceName="jsc://ValidateDates.js" version="SHA-512:cf114576d5ecf827bed1a1cc327c9257338d0819c5a94ebfcc3869b7ab08a8bc1ad775ac310e8a921714adcf506309fd0fd779a16618c65255c281e1c4c09bf1"/>
         <VersionInfo resourceName="jsc://moment.min.js" version="SHA-512:2f49e19a9a0f6da78174a22b09505f3280af09185691a33b4e89fcce57d03ad2ca21feec0c56478247ac0a03031b2a6f0259b1518ab1a9a0d90e7187fd639eb8"/>
         <VersionInfo resourceName="openapi://association.json" version="SHA-512:0be21a8ba12a15c67663a4f7f1a064825a6bd57300031a5f54be918fbd09b9e0e2f2856d8161f920e06cea99b5ce1060ecf3bb9e7bde7c5556e837f8b2a97347"/>
     </Resources>
