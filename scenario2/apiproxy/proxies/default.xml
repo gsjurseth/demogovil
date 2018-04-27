@@ -18,7 +18,11 @@
     </PreFlow>
     <PostFlow name="PostFlow">
         <Request/>
-        <Response/>
+        <Response>
+            <Step>
+                <Name>AssignMessage.SetContentTypeJSON</Name>
+            </Step>
+        </Response>
     </PostFlow>
     <PostClientFlow>
         <Request/>
@@ -53,8 +57,9 @@
                     <Condition>(verb == "GET")</Condition>
                 </Step>
             </Request>
-            <Response/>
-            <Condition>(proxy.pathsuffix MatchesPath "/payments") and (request.verb = "GET")</Condition>
+            <Response>
+            </Response>
+            <Condition>(proxy.pathsuffix MatchesPath "/payments/search") and (request.verb = "GET")</Condition>
         </Flow>
         <Flow name="unknown-resource">
             <Description>Unknown Resource</Description>

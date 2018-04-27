@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="2" name="scenario2">
+<APIProxy revision="3" name="scenario2">
     <Basepaths>/scenario2</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
     <CreatedAt>1524728415507</CreatedAt>
     <CreatedBy>gsjurseth@google.com</CreatedBy>
     <Description>Search</Description>
     <DisplayName>Search</DisplayName>
-    <LastModifiedAt>1524732559505</LastModifiedAt>
+    <LastModifiedAt>1524831540829</LastModifiedAt>
     <LastModifiedBy>gsjurseth@google.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:4f54a617ce6900ab52827586ddefddb08ab2da584db8a1eeb271a323c3b8147982cc72156221938fe2e1233d5e0a31796f426f99bdfb9ac64702a311607521cb</ManifestVersion>
+    <ManifestVersion>SHA-512:a487d8c0ab4fcc1fa1e25f21358e4a722cc23df2d55a889c82ed2570d9288ecac6b5f0dbd9efac9faae32f72ad11b1646d2f6dd7b2daf691adddb96070dd1082</ManifestVersion>
     <Policies>
+        <Policy>AssignMessage.SetContentTypeJSON</Policy>
         <Policy>AssignMessageSetContentType</Policy>
         <Policy>AssignMessageSetQueryString</Policy>
         <Policy>FlowCalloutOauthValidation</Policy>
