@@ -20,11 +20,11 @@ With this fetched you can then call the other services in the different scenario
 
 ## Breakdown of the various scenarios
 - :heavy_check_mark: [scenario1](/scenario1)
-- :heavy_checkmark: [scenario2](/scenario2)
-- :heavy_checkmark: [scenario3](/scenario3)
+- :heavy_check_mark: [scenario2](/scenario2)
+- :heavy_check_mark: [scenario3](/scenario3)
 - :red_circle: [scenario4](/scenario4)
-- :heavy_checkmark: [scenario5_LoadBalancing](/scenario5)
-- :heavy_checkmark: [scenario5_SLA](/scenario5)
+- :heavy_check_mark: [scenario5_LoadBalancing](/scenario5)
+- :heavy_check_mark: [scenario5_SLA](/scenario5)
 - :red_circle: [scenario6](/scenario6)
 - :red_circle: [scenario7](/scenario7)
 - :red_circle: [scenario8](/scenario8)
