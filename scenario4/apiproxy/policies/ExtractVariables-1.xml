@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractVariables-1">
+    <DisplayName>Extract Variables 1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <QueryParam name="page">
+        <Pattern ignoreCase="true">{page}</Pattern>
+    </QueryParam>
+    <QueryParam name="maxpage">
+        <Pattern ignoreCase="true">{maxpage}</Pattern>
+    </QueryParam>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <JSONPayload/>
+    <Source clearPayload="false">request</Source>
+    <VariablePrefix/>
+</ExtractVariables>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage name="AssignMessage-1">
+    <DisplayName>Assign Message 1</DisplayName>
+    <Remove>
+        <Headers>
+            <Header name="Content-Type"/>
+            <Header name="Content-Length"/>
+        </Headers>
+    </Remove>
+    <Set>
+        <Headers>
+            <Header name="content-type">application/json</Header>
+        </Headers>
+        <QueryParams/>
+        <FormParams/>
+        <Verb/>
+        <Path/>
+        <Payload contentType="text/json">{paginatedResponse}</Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>

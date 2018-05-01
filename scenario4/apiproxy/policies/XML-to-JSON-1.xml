@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XMLToJSON async="false" continueOnError="false" enabled="true" name="XML-to-JSON-1">
+    <DisplayName>XML to JSON-1</DisplayName>
+    <Properties/>
+    <Source>paginatedResponse</Source>
+    <OutputVariable>paginatedResponse</OutputVariable>
+    <Options>
+        <StripLevels>1</StripLevels>
+    </Options>
+</XMLToJSON>

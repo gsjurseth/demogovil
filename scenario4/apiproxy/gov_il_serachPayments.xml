@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="8" name="gov_il_serachPayments">
+    <Basepaths>/gov_il_payments/search</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1525177472119</CreatedAt>
+    <CreatedBy>yaroni@yaelsoft.com</CreatedBy>
+    <Description>serach Payments</Description>
+    <DisplayName>gov_il_serachPayments</DisplayName>
+    <LastModifiedAt>1525177472119</LastModifiedAt>
+    <LastModifiedBy>yaroni@yaelsoft.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:e1c396f214db85ac04f85477eabc30647937fdeba346f6f6e8c85e22f49e7f2b98a5022503ecd742f1d3e2307443e3d658eaeec9a16b4c33d9b9a6a10d8766bd</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessage-1</Policy>
+        <Policy>CheckResponce</Policy>
+        <Policy>ExtractVariables-1</Policy>
+        <Policy>JSON2XML</Policy>
+        <Policy>RaiseFault</Policy>
+        <Policy>ResponseCache-1</Policy>
+        <Policy>XML-to-JSON-1</Policy>
+        <Policy>XML2JSON</Policy>
+        <Policy>XSLT-Paginate</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>xsl://paginate.xslt</Resource>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

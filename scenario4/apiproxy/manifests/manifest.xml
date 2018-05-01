@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessage-1" version="SHA-512:34717be2c92300b7fae6b5acfdec6976be07069d8a05e59ae6d5117ddd43964096bb2883c033d078e23831a22a8b00a3defc4c98357f324d2616ba4142311aee"/>
+        <VersionInfo resourceName="CheckResponce" version="SHA-512:7ef51631ffd17d25c81e6387484a1af566e3ed2f105589918be0029ae00eb8d55b5a9da41795cc9668b60618ac402198a421ac977adbf166cbceecd614c4a43d"/>
+        <VersionInfo resourceName="ExtractVariables-1" version="SHA-512:9097540fea77886c3fc055e961510dfb9c1e4fba4cbc2e503a983bc1fc603492d5c5882638b44c9717512e9ed73c8cdf667d920071295c5d2d1720a09a18d104"/>
+        <VersionInfo resourceName="JSON2XML" version="SHA-512:c4175bbd585f97880a638ca66490a386c3a2c227a40ca390cfe51c35c606cd81d88d708726bdf557737613aab857141cb98bf9ad36c819cf279eace7d5aadd93"/>
+        <VersionInfo resourceName="RaiseFault" version="SHA-512:b1fd3194ba5002ee5b9e30a5f93c463e9732680a16ee8ec55c752dcc6e62f2ec2404ee508d8114b1ef4086ab418f770c5733dbe610ba1def8eb50789dcb680a2"/>
+        <VersionInfo resourceName="ResponseCache-1" version="SHA-512:8cfe3770844e9e2cd14a527a448f09b556c81f544636bdf0e29b022f6a75fe151d95d5f31c35b350188b564dfafdb082482cef88055225b8e936bc166af8e609"/>
+        <VersionInfo resourceName="XML-to-JSON-1" version="SHA-512:6691d5564e37a560f00013109b27be591fd192ae478007a2e7e978531f8719f30ad450f3447b89f27bf1fd9ab293b6cd7e0aa101bffcd992d0d588611ed703f1"/>
+        <VersionInfo resourceName="XML2JSON" version="SHA-512:ac82609d0e30380eb42e1419689643fdb661a5b958cc6ba286f9f5b319e12bcd31888d467b495bd7a10c37612c6dde9941b47eff16979efb7352de13290a1d1a"/>
+        <VersionInfo resourceName="XSLT-Paginate" version="SHA-512:4dd5cbfe02a24ebd66b91347873f5d0861ca0bb150670e415e8690ee7e2dde145d06a801c7846819318ef0fb748ed57a38251bcc54ea5bf34da55cf55715f3aa"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:912d4a7183b0fb8cb2a14b2f5b174923463b277ae3626baf01d450f8f46bcc205b8ea3bf4d3e222eb016934e193bfcae0e85cadf936e4469d686fed8fd96d6a6"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:49197d32718f4e22b745d49131a2f930c934f45f75a3e0a4e0ad6c6e2f0b0d033f7de0f7336b693779231aee66c4d4275a0f8b5b4a9122bd82f7c8cb4a546cec"/>
+        <VersionInfo resourceName="xsl://paginate.xslt" version="SHA-512:4637132ffb85c2e0f5e7ecdfa6fc7beeffef7dc9da6c4f515e6d6a88a6830fe8933b06e746e042f68c618616cd020e593f49efc962de6024562bd76304daab13"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:c1ce8bcd407898e19a7d562b6297601e25b7ce3fca09220bf24da342f75938904aa54c95700c3ca07b08cd31ae230f5f71c29174eb98bea5b3b1a66540a0bab5"/>
+    </TargetEndpoints>
+</Manifest>
