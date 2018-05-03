@@ -2,6 +2,19 @@
 <ProxyEndpoint name="default">
     <Description/>
     <FaultRules/>
+    <DefaultFaultRule name="all">
+        <AlwaysEnforce>true</AlwaysEnforce>
+        <!--      <Step>
+            <Condition>(flow.myapi.error.code = null)</Condition>
+            <Name>AssignMessage.SetInternalServerErrorVariables</Name>
+        </Step>-->
+        <Step>
+            <Name>AssignMessage.XMLFault-InvalidApiKey</Name>
+        </Step>
+        <Step>
+            <Name>MessageLogging.LogglyError</Name>
+        </Step>
+    </DefaultFaultRule>
     <PreFlow name="PreFlow">
         <Request>
             <Step>
@@ -17,6 +30,9 @@
             </Step>
             <Step>
                 <Name>JSON2XML</Name>
+            </Step>
+            <Step>
+                <Name>JavaScriptPage</Name>
             </Step>
             <Step>
                 <Name>XSLT-Paginate</Name>
@@ -37,16 +53,20 @@
         <Request/>
         <Response/>
     </PostFlow>
+    <PostClientFlow>
+        <Request/>
+        <Response/>
+    </PostClientFlow>
     <Flows>
         <Flow name="get-payments">
             <Description/>
             <Request/>
             <Response/>
-            <Condition>(proxy.pathsuffix MatchesPath "gov_il_payments/search") and (request.verb = "GET")</Condition>
+            <Condition>(proxy.pathsuffix MatchesPath "/search") and (request.verb = "GET")</Condition>
         </Flow>
     </Flows>
     <HTTPProxyConnection>
-        <BasePath>/gov_il_payments/search</BasePath>
+        <BasePath>/scenario4/payments</BasePath>
         <Properties/>
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>

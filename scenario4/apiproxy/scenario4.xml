@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="scenario4">
+    <Basepaths>/gov_il_payments/search</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1525349526084</CreatedAt>
+    <CreatedBy>yaroni@yaelsoft.com</CreatedBy>
+    <Description>serach Payments</Description>
+    <DisplayName>gov_il_serachPayments</DisplayName>
+    <LastModifiedAt>1525363891640</LastModifiedAt>
+    <LastModifiedBy>yaroni@yaelsoft.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:5ae12608b6ad61ede1514ea1918ddc44200aed30ea12195b90fb156d8ad54283fa02eeb09c6eda8574d4e0593fd0823bc8a8b7688591153f63be22482a5666ed</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessage-1</Policy>
+        <Policy>AssignMessage.XMLFault-InvalidApiKey</Policy>
+        <Policy>ExtractVariables-1</Policy>
+        <Policy>JSON2XML</Policy>
+        <Policy>JavaScriptPage</Policy>
+        <Policy>MessageLogging.Loggly</Policy>
+        <Policy>MessageLogging.LogglyError</Policy>
+        <Policy>MessageLoggingLoggly</Policy>
+        <Policy>RaiseFault</Policy>
+        <Policy>ResponseCache-1</Policy>
+        <Policy>XML-to-JSON-1</Policy>
+        <Policy>XML2JSON</Policy>
+        <Policy>XSLT-Paginate</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>xsl://paginate.xslt</Resource>
+        <Resource>openapi://association.json</Resource>
+        <Resource>jsc://JavaScriptPage.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

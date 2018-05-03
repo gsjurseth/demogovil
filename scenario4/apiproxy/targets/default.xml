@@ -8,12 +8,11 @@
     </PreFlow>
     <PostFlow name="PostFlow">
         <Request/>
-        <Response>
-        </Response>
+        <Response/>
     </PostFlow>
     <Flows/>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>http://tibco-demo.yaelsoft.com:10010/payments/search</URL>
+        <URL>http://tibco-demo.yaelsoft.com:10010/payments</URL>
     </HTTPTargetConnection>
 </TargetEndpoint>

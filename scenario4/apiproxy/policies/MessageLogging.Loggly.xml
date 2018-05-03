@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging async="false" continueOnError="false" enabled="true" name="MessageLogging.Loggly">
+    <DisplayName>MessageLogging.Loggly</DisplayName>
+    <Syslog>
+        <Message>[0b2847a2-5001-4377-a92f-c2639150ebe1@41058
+            tag="{organization.name}.{apiproxy.name}.{environment.name}"]
+            scenario:"Scenario3"
+            clientip:"{client.ip}"
+            queryString:"{request.querystring}"
+            data:"{response.content}"
+            fullName:"{name}"
+            userId:"{apigee.client_id}"
+            officeNumber:"{officeNumber}"
+            department:"{department}"
+            role:"{role}"</Message>
+        <Host>logs-01.loggly.com</Host>
+        <Port>514</Port>
+    </Syslog>
+</MessageLogging>
